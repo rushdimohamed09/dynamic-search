@@ -1,4 +1,4 @@
-# dynamic-mysql-select-query-via-PHP-function
+# mysql-select-query-with-dynamic-WHERE-clause via PHP prepared statement
 This is a dynamic single table mysql select query that is developed from PHP using prepared statements using AND operator and below steps will helps to return the value. This will output "Result found" if the the search criteria matches else it will return 'Result not found" and if wrong content was provided to the function it will return "Something went wrong"
 
 1. This is a function used with a single parameter. 
