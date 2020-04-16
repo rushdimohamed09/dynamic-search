@@ -1,3 +1,4 @@
+<?php
 include ('config.php');
 function check_record_availability($data){
 	$res=json_decode($data,true);
@@ -47,3 +48,4 @@ function check_record_availability($data){
 	return (json_encode($result));
 	exit();
 }
+?>
