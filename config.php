@@ -1,3 +1,4 @@
+<?php
 function config(){
 	$servername="localhost";
 	$username="root";
@@ -11,3 +12,4 @@ function config(){
 	}
 	return $conn;
 }
+?>
