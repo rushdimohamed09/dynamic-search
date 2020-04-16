@@ -3,7 +3,7 @@ function config(){
 	$servername="localhost";
 	$username="root";
 	$password="";
-	$database="db_name";
+	$database="db_name";//change this
 	
 	$conn = mysqli_connect($servername,$username,$password,$database);
 	
